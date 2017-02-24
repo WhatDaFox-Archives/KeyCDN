@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "description": "Zonereferrer successfully added.",
+    "data": {
+        "zonereferrer": {
+            "id": "1001",
+            "name": "assets.yourwebsite.com",
+            "zone_id": "2001"
+        }
+    }
+}

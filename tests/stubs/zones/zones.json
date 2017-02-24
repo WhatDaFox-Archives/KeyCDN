@@ -1,0 +1,52 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "zones": [
+            {
+                "id": "1000",
+                "name": "foopull",
+                "status": "active",
+                "type": "pull",
+                "forcedownload": "disabled",
+                "cors": "disabled",
+                "gzip": "disabled",
+                "expire": "0",
+                "http2": "disabled",
+                "securetoken": "disabled",
+                "securetokenkey": null,
+                "sslcert": "disabled",
+                "customsslkey": null,
+                "customsslcert": null,
+                "forcessl": "disabled",
+                "originurl": "http://foo.com",
+                "cachemaxexpire": "1440",
+                "cacheignorecachecontrol": "enabled",
+                "cacheignorequerystring": "enabled",
+                "cachestripcookies": "disabled",
+                "cachexpullkey": "KeyCDN",
+                "cachecanonical": "disabled",
+                "cacherobots": "disabled"
+            },
+            {
+                "id": "1001",
+                "name": "foopush",
+                "status": "active",
+                "type": "push",
+                "forcedownload": "disabled",
+                "cors": "disabled",
+                "gzip": "disabled",
+                "expire": "0",
+                "http2": "disabled",
+                "securetoken": "disabled",
+                "securetokenkey": "",
+                "sslcert": "disabled",
+                "customsslkey": "",
+                "customsslcert": "",
+                "forcessl": "disabled",
+                "dirlist": "disabled",
+                "dirindex": "disabled"
+            }
+        ]
+    }
+}

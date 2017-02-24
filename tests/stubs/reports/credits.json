@@ -1,0 +1,23 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "stats": [
+            {
+                "amount": "-0.06",
+                "type": "traffic",
+                "timestamp": "1408668601"
+            },
+            {
+                "amount": "-0.05",
+                "type": "storage",
+                "timestamp": "1408755001"
+            },
+            {
+                "amount": "-0.05",
+                "type": "traffic",
+                "timestamp": "1408841401"
+            }
+        ]
+    }
+}

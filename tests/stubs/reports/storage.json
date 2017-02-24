@@ -1,0 +1,20 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "stats": [
+            {
+                "amount": "23729283",
+                "timestamp": "1408665721"
+            },
+            {
+                "amount": "23737475",
+                "timestamp": "1408752121"
+            },
+            {
+                "amount": "23753859",
+                "timestamp": "1408838521"
+            }
+        ]
+    }
+}

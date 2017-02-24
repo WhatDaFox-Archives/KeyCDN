@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "zone": {
+            "id": "1000",
+            "name": "foobar",
+            "status": "active",
+            "type": "pull",
+            "forcedownload": "disabled",
+            "cors": "disabled",
+            "gzip": "disabled",
+            "expire": "0",
+            "http2": "disabled",
+            "securetoken": "disabled",
+            "securetokenkey": null,
+            "sslcert": "disabled",
+            "customsslkey": null,
+            "customsslcert": null,
+            "forcessl": "disabled",
+            "originurl": "http://foo.com",
+            "originshield": "disabled",
+            "cachemaxexpire": "1440",
+            "cacheignorecachecontrol": "enabled",
+            "cacheignorequerystring": "enabled",
+            "cachestripcookies": "disabled",
+            "cachexpullkey": "KeyCDN",
+            "cachecanonical": "disabled",
+            "cacherobots": "disabled"
+        }
+    }
+}

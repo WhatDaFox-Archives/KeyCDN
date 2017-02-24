@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "description": "Zonealias successfully added.",
+    "data": {
+        "zonealias": {
+            "id": "1001",
+            "name": "assets.yourwebsite.com",
+            "zone_id": "2001"
+        }
+    }
+}

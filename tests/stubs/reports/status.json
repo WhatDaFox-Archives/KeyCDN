@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "stats": [
+            {
+                "totalcachehit": "1535",
+                "totalcachemiss": "76",
+                "totalsuccess": "1652",
+                "totalerror": "46",
+                "timestamp": "1408751401"
+            },
+            {
+                "totalcachehit": "1363",
+                "totalcachemiss": "0",
+                "totalsuccess": "1365",
+                "totalerror": "0",
+                "timestamp": "1408837801"
+            },
+            {
+                "totalcachehit": "1438",
+                "totalcachemiss": "0",
+                "totalsuccess": "1440",
+                "totalerror": "4",
+                "timestamp": "1408924201"
+            }
+        ]
+    }
+}

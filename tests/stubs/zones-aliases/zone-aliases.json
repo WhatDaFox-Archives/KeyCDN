@@ -1,0 +1,18 @@
+{
+    "status": "success",
+    "description": "Data successfully received.",
+    "data": {
+        "zonealiases": [
+            {
+                "id": "1001",
+                "zone_id": "2001",
+                "name": "assets.yourwebsite.com"
+            },
+            {
+                "id": "1002",
+                "zone_id": "2002",
+                "name": "cdn.yourwebsite.com"
+            }
+        ]
+    }
+}
