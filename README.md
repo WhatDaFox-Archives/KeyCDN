@@ -1,5 +1,5 @@
 # KeyCDN PHP SDK
-[![Packagist](https://img.shields.io/packagist/v/WhatDaFox/KeyCDN.svg?maxAge=2592000?style=flat-square)](https://packagist.org/packages/whatdafox/keycdn)
+[![Packagist](https://img.shields.io/packagist/v/whatdafox/keycdn.svg?maxAge=2592000?style=flat-square)](https://packagist.org/packages/whatdafox/keycdn)
 [![Travis](https://img.shields.io/travis/WhatDaFox/KeyCDN/master.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/WhatDaFox/KeyCDN)
 
 PHP Wrapper to interact with the KeyCDN API.
