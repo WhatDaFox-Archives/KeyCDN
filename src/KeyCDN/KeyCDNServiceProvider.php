@@ -33,6 +33,8 @@ class KeyCDNServiceProvider extends ServiceProvider
         $this->app->bind(KeyCDN::class, function() {
             return KeyCDN::create(config('keycdn.key'));
         });
+
+        $this->app->alias(KeyCDN::class, 'keycdn');
     }
 
     /**
