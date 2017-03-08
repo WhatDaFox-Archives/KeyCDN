@@ -5,10 +5,10 @@ namespace KeyCDN\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Class KeyCDNFacade
+ * Class KeyCDN
  * @package KeyCDN\Facades
  */
-class KeyCDNFacade extends Facade
+class KeyCDN extends Facade
 {
     /**
      * @return string
