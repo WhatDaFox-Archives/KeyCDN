@@ -26,11 +26,12 @@
         "phpunit/phpunit": "^5.5",
         "symfony/var-dumper": "^3.1",
         "nesbot/carbon": "^1.21",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "orchestra/testbench": "^3.4"
     },
     "autoload": {
         "psr-4": {
-            "KeyCDN\\":"src"
+            "KeyCDN\\":"src/KeyCDN"
         }
     },
     "autoload-dev": {
