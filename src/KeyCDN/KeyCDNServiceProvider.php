@@ -3,7 +3,6 @@
 namespace KeyCDN;
 
 use Illuminate\Support\ServiceProvider;
-use KeyCDN\Facades\KeyCDN;
 use KeyCDN\Facades\KeyCDNFacade;
 
 /**
