@@ -39,6 +39,7 @@ class TestCase extends PHPUnit_Framework_TestCase
         $client->method('put')->willReturn($response);
         $client->method('post')->willReturn($response);
         $client->method('delete')->willReturn($deleteResponse);
+        $client->method('request')->willReturn($deleteResponse);
 
         return $client;
     }

@@ -68,7 +68,6 @@ class ZonesTest extends TestCase
         $zone = $keycdn->zone(1000)->delete();
 
         $this->assertTrue($zone);
-//        $this->assertJsonStringEqualsJsonFile($this->getStub('projects/project'), $project->toJson());
     }
 
     /** @test */

@@ -97,7 +97,9 @@ class ZonesAdapter extends AdapterAbstract
      */
     public function purgeUrls(array $urls)
     {
-        $response = $this->client->delete("zones/purgeurl/{$this->getResourceId()}.json", compact('urls'));
+        $response = $this->client->request('DELETE', "zones/purgeurl/{$this->getResourceId()}.json", [
+            'form_params' =>  compact('urls')
+        ]);
 
         return $this->booleanResponse($response);
     }
@@ -108,7 +110,9 @@ class ZonesAdapter extends AdapterAbstract
      */
     public function purgeTags(array $tags)
     {
-        $response = $this->client->delete("zones/purgetag/{$this->getResourceId()}.json", compact('tags'));
+        $response = $this->client->request('DELETE', "zones/purgetag/{$this->getResourceId()}.json", [
+            'form_params' => compact('tags')
+        ]);
 
         return $this->booleanResponse($response);
     }
